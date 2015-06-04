@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73CF16661B20D7A9001DB60C /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CF16651B20D7A9001DB60C /* LeftViewController.swift */; };
+		73CF16681B20D9A9001DB60C /* GraphCalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CF16671B20D9A9001DB60C /* GraphCalculatorBrain.swift */; };
+		73CF166A1B20DA9C001DB60C /* DrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CF16691B20DA9C001DB60C /* DrawingViewController.swift */; };
+		73EF0F741B20CD48005A7404 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EF0F731B20CD48005A7404 /* AppDelegate.swift */; };
+		73EF0F771B20CD48005A7404 /* Form2Graph.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 73EF0F751B20CD48005A7404 /* Form2Graph.xcdatamodeld */; };
+		73EF0F791B20CD48005A7404 /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EF0F781B20CD48005A7404 /* GraphViewController.swift */; };
+		73EF0F7C1B20CD48005A7404 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73EF0F7A1B20CD48005A7404 /* Main.storyboard */; };
+		73EF0F7E1B20CD48005A7404 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73EF0F7D1B20CD48005A7404 /* Images.xcassets */; };
+		73EF0F811B20CD48005A7404 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73EF0F7F1B20CD48005A7404 /* LaunchScreen.xib */; };
+		73EF0F8D1B20CD48005A7404 /* Form2GraphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EF0F8C1B20CD48005A7404 /* Form2GraphTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73EF0F871B20CD48005A7404 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73EF0F661B20CD48005A7404 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73EF0F6D1B20CD48005A7404;
+			remoteInfo = Form2Graph;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		73CF16651B20D7A9001DB60C /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		73CF16671B20D9A9001DB60C /* GraphCalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphCalculatorBrain.swift; sourceTree = "<group>"; };
+		73CF16691B20DA9C001DB60C /* DrawingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingViewController.swift; sourceTree = "<group>"; };
+		73EF0F6E1B20CD48005A7404 /* Form2Graph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Form2Graph.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73EF0F721B20CD48005A7404 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73EF0F731B20CD48005A7404 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		73EF0F761B20CD48005A7404 /* Form2Graph.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Form2Graph.xcdatamodel; sourceTree = "<group>"; };
+		73EF0F781B20CD48005A7404 /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		73EF0F7B1B20CD48005A7404 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		73EF0F7D1B20CD48005A7404 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		73EF0F801B20CD48005A7404 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		73EF0F861B20CD48005A7404 /* Form2GraphTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Form2GraphTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73EF0F8B1B20CD48005A7404 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73EF0F8C1B20CD48005A7404 /* Form2GraphTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form2GraphTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73EF0F6B1B20CD48005A7404 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73EF0F831B20CD48005A7404 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73EF0F651B20CD48005A7404 = {
+			isa = PBXGroup;
+			children = (
+				73EF0F701B20CD48005A7404 /* Form2Graph */,
+				73EF0F891B20CD48005A7404 /* Form2GraphTests */,
+				73EF0F6F1B20CD48005A7404 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73EF0F6F1B20CD48005A7404 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73EF0F6E1B20CD48005A7404 /* Form2Graph.app */,
+				73EF0F861B20CD48005A7404 /* Form2GraphTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73EF0F701B20CD48005A7404 /* Form2Graph */ = {
+			isa = PBXGroup;
+			children = (
+				73EF0F731B20CD48005A7404 /* AppDelegate.swift */,
+				73CF16691B20DA9C001DB60C /* DrawingViewController.swift */,
+				73CF16671B20D9A9001DB60C /* GraphCalculatorBrain.swift */,
+				73EF0F781B20CD48005A7404 /* GraphViewController.swift */,
+				73CF16651B20D7A9001DB60C /* LeftViewController.swift */,
+				73EF0F7A1B20CD48005A7404 /* Main.storyboard */,
+				73EF0F7F1B20CD48005A7404 /* LaunchScreen.xib */,
+				73EF0F751B20CD48005A7404 /* Form2Graph.xcdatamodeld */,
+				73EF0F711B20CD48005A7404 /* Supporting Files */,
+			);
+			path = Form2Graph;
+			sourceTree = "<group>";
+		};
+		73EF0F711B20CD48005A7404 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				73EF0F7D1B20CD48005A7404 /* Images.xcassets */,
+				73EF0F721B20CD48005A7404 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		73EF0F891B20CD48005A7404 /* Form2GraphTests */ = {
+			isa = PBXGroup;
+			children = (
+				73EF0F8C1B20CD48005A7404 /* Form2GraphTests.swift */,
+				73EF0F8A1B20CD48005A7404 /* Supporting Files */,
+			);
+			path = Form2GraphTests;
+			sourceTree = "<group>";
+		};
+		73EF0F8A1B20CD48005A7404 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				73EF0F8B1B20CD48005A7404 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73EF0F6D1B20CD48005A7404 /* Form2Graph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73EF0F901B20CD48005A7404 /* Build configuration list for PBXNativeTarget "Form2Graph" */;
+			buildPhases = (
+				73EF0F6A1B20CD48005A7404 /* Sources */,
+				73EF0F6B1B20CD48005A7404 /* Frameworks */,
+				73EF0F6C1B20CD48005A7404 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Form2Graph;
+			productName = Form2Graph;
+			productReference = 73EF0F6E1B20CD48005A7404 /* Form2Graph.app */;
+			productType = "com.apple.product-type.application";
+		};
+		73EF0F851B20CD48005A7404 /* Form2GraphTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73EF0F931B20CD48005A7404 /* Build configuration list for PBXNativeTarget "Form2GraphTests" */;
+			buildPhases = (
+				73EF0F821B20CD48005A7404 /* Sources */,
+				73EF0F831B20CD48005A7404 /* Frameworks */,
+				73EF0F841B20CD48005A7404 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73EF0F881B20CD48005A7404 /* PBXTargetDependency */,
+			);
+			name = Form2GraphTests;
+			productName = Form2GraphTests;
+			productReference = 73EF0F861B20CD48005A7404 /* Form2GraphTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73EF0F661B20CD48005A7404 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Mikael Nyborg";
+				TargetAttributes = {
+					73EF0F6D1B20CD48005A7404 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = EZB2GD2LVX;
+					};
+					73EF0F851B20CD48005A7404 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 73EF0F6D1B20CD48005A7404;
+					};
+				};
+			};
+			buildConfigurationList = 73EF0F691B20CD48005A7404 /* Build configuration list for PBXProject "Form2Graph" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73EF0F651B20CD48005A7404;
+			productRefGroup = 73EF0F6F1B20CD48005A7404 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73EF0F6D1B20CD48005A7404 /* Form2Graph */,
+				73EF0F851B20CD48005A7404 /* Form2GraphTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73EF0F6C1B20CD48005A7404 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73EF0F7C1B20CD48005A7404 /* Main.storyboard in Resources */,
+				73EF0F811B20CD48005A7404 /* LaunchScreen.xib in Resources */,
+				73EF0F7E1B20CD48005A7404 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73EF0F841B20CD48005A7404 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73EF0F6A1B20CD48005A7404 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73CF16681B20D9A9001DB60C /* GraphCalculatorBrain.swift in Sources */,
+				73CF166A1B20DA9C001DB60C /* DrawingViewController.swift in Sources */,
+				73EF0F791B20CD48005A7404 /* GraphViewController.swift in Sources */,
+				73CF16661B20D7A9001DB60C /* LeftViewController.swift in Sources */,
+				73EF0F741B20CD48005A7404 /* AppDelegate.swift in Sources */,
+				73EF0F771B20CD48005A7404 /* Form2Graph.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73EF0F821B20CD48005A7404 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73EF0F8D1B20CD48005A7404 /* Form2GraphTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73EF0F881B20CD48005A7404 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73EF0F6D1B20CD48005A7404 /* Form2Graph */;
+			targetProxy = 73EF0F871B20CD48005A7404 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		73EF0F7A1B20CD48005A7404 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73EF0F7B1B20CD48005A7404 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		73EF0F7F1B20CD48005A7404 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73EF0F801B20CD48005A7404 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		73EF0F8E1B20CD48005A7404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		73EF0F8F1B20CD48005A7404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73EF0F911B20CD48005A7404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Form2Graph/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73EF0F921B20CD48005A7404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Form2Graph/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		73EF0F941B20CD48005A7404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Form2GraphTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Form2Graph.app/Form2Graph";
+			};
+			name = Debug;
+		};
+		73EF0F951B20CD48005A7404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Form2GraphTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Form2Graph.app/Form2Graph";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73EF0F691B20CD48005A7404 /* Build configuration list for PBXProject "Form2Graph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73EF0F8E1B20CD48005A7404 /* Debug */,
+				73EF0F8F1B20CD48005A7404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73EF0F901B20CD48005A7404 /* Build configuration list for PBXNativeTarget "Form2Graph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73EF0F911B20CD48005A7404 /* Debug */,
+				73EF0F921B20CD48005A7404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73EF0F931B20CD48005A7404 /* Build configuration list for PBXNativeTarget "Form2GraphTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73EF0F941B20CD48005A7404 /* Debug */,
+				73EF0F951B20CD48005A7404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		73EF0F751B20CD48005A7404 /* Form2Graph.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				73EF0F761B20CD48005A7404 /* Form2Graph.xcdatamodel */,
+			);
+			currentVersion = 73EF0F761B20CD48005A7404 /* Form2Graph.xcdatamodel */;
+			path = Form2Graph.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 73EF0F661B20CD48005A7404 /* Project object */;
+}
